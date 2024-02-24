@@ -1,12 +1,7 @@
-import Main from "./components/Main";
 import Layout from "./components/layout/Layout";
 
 const App = () => {
-  return (
-    <Layout>
-      <Main />
-    </Layout>
-  );
+  return <Layout />;
 };
 
 export default App;
